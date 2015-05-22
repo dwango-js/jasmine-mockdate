@@ -6,6 +6,10 @@
     "test": "npm run build && karma start",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dwango-js/jasmine-mockdate.git"
+  },
   "devDependencies": {
     "karma": "~0.12.31",
     "karma-cli": "0.0.4",
