@@ -1,0 +1,16 @@
+{
+  "name": "jasmine-mockdate",
+  "version": "0.1.0",
+  "description": "Mock Date for legacy Jasmine v1.3",
+  "scripts": {
+    "test": "npm run build && karma start",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "karma": "~0.12.31",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "~0.1.5",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "webpack": "~1.9.8"
+  }
+}
